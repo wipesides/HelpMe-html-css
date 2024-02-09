@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background: var(--blue);
+    color: white;
+    overflow: hidden;
+}
+:root {
+    --full-black: #000000;
+    --darker-blue: #0a58a8;
+    --black: #13072e;
+    --lighter-blue: #15b0f8;
+    --blue: #2470c2;
+    --very-light-blue: #c6dbec;
+    --gradient-green: linear-gradient(90deg,#0097b2,#7ed957);
+    --gradient-dark-blue: linear-gradient(to right,#000000,#3533cd);
+    --gradient-light-blue: linear-gradient(90deg,#cdffd8,#94b9ff);
+}
+
